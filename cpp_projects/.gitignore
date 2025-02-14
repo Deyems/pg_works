@@ -2,7 +2,8 @@
 *.o
 a.out
 *.exe
-c
+build/
+.vscode
 
 !*.cpp
 !*.h
