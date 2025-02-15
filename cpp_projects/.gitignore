@@ -3,7 +3,7 @@
 a.out
 *.exe
 build/
-.vscode
+# .vscode
 
 !*.cpp
 !*.h
