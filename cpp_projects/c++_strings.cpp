@@ -9,12 +9,13 @@ int main(){
 
     string num = "20";
     string num2 = "30";
-    string getSize = "Abcdef go home to learn his lessons!";
-    getSize[3] = 'Y';
+    string myLongText = "Abcdef go home to learn his lessons!";
+    myLongText[3] = 'Y';
     cout << fullName << endl;
-    cout << num + num2 << " summing string and integer " << getSize.length() << " combines length and size " << getSize.size() << endl;
-    cout << getSize << " The chars in position is after changing position 3 " << endl;
-    cout << getSize[getSize.length() - 1] << " The char at last position is " << endl;
+    cout << num + num2 << " summing string and integer " << myLongText.length() << " combines length and size " << myLongText.size() << endl;
+    cout << myLongText << " The chars in position is after changing position 3 " << endl;
+    cout << myLongText[myLongText.length() - 1] << " The char at last position is " << endl;
+    cout << myLongText.at(7) << " printing at position 7 in long text" << endl;
     return 0;
 }
 
